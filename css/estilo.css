@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+:root{
+    margen-izquierdo: 10%;
+}
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: rgba(38, 114, 76, 1)
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: rgb(248, 181, 79);
+    position: fixed;
+    top: 0;
+    margin-top: 0%;
+}
+.logo{
+    margin-left: 10%;
+    width: 100px;
+    align-items: center;
+}
+
+nav a{
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+nav{
+    display: flex;
+    align-items: center;
+    
+}
+
+.redes{
+    margin-right: 10%;
+}
+
+main{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    background-color: rgb(202, 202, 202);
+}
+
+.torneo-actual{
+    display: flex;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    justify-content: space-around;
+}
+.foto-tennis{
+    width: 400px;
+    opacity: 0.8;
+    box-shadow: 3px 3px 3px 3px grey;
+    }
+.foto-tennis:hover{
+    opacity: 1;
+}
+
+
+.descripcion-torneo{
+    width: 400px;
+    text-align: justify;
+}
+div.boton-resultados{
+    
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 30px;
+    background-color: white;
+    color: brown;
+    border-radius: 5px;
+}
+h1{
+    text-align: center;
+    margin-top: 20px;
+    padding: 15px;
+}
+h2{
+    text-align: center;
+}
+
+div.jugadores{
+    background-color: rgb(248, 181, 79);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px;
+    margin-top: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.foto-jugadores{
+    width: 200px;
+    height: 200px;
+    opacity: 0.8;
+}
+
