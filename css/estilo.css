@@ -51,6 +51,7 @@ main{
     margin-right: 10%;
     margin-top: 5%;
     background-color: rgb(202, 202, 202);
+    border-radius: 10px 10px 10px 10px;
 }
 
 .torneo-actual{
@@ -73,6 +74,10 @@ main{
     width: 400px;
     text-align: justify;
 }
+.face-grupo{
+    width: 15px;
+    height: 15px;
+}
 div.boton-resultados{
     
     margin: 0 auto;
@@ -93,12 +98,19 @@ h1{
 h2{
     text-align: center;
 }
+.jugadores-titulo{
+    margin: 0 auto;
+    background-color: rgb(248, 181, 79);
+    margin-top: 15px;
+    padding: 10px;
+}
 
 div.jugadores{
-    background-color: rgb(248, 181, 79);
+    background-color: rgb(197, 254, 234);
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
     font-size: 20px;
     margin-top: 30px;
     padding-top: 5px;
@@ -109,5 +121,10 @@ div.jugadores{
     width: 200px;
     height: 200px;
     opacity: 0.8;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px 3px grey;
 }
 
+.borde-fotos{
+    
+}
