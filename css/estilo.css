@@ -128,11 +128,13 @@ div.jugadores{
 .foto-jugadores{
     width: 180px;
     height: 180px;
-    opacity: 0.8;
+    opacity: 1;
     border-radius: 98px;
     border: 4px solid white;
     box-shadow: 3px 3px 3px 3px rgb(248, 181, 79);
-
+}
+.foto-jugadores:hover{
+    opacity: 1;
 }
 .descripcion-foto{
     width: 200px;
@@ -144,8 +146,8 @@ div.jugadores{
     text-align: justify;
     
 }
-.descripcion-foto:hover{
-    opacity: 1;
+.foto-jugadores:hover{
+    transform: scale(1.5);
 }
 
 .programacion{
@@ -163,22 +165,37 @@ div.jugadores{
     margin-top: 30px;
     margin-bottom: 50px;
 }
+.anteriores{
+    color: rgba(38, 114, 76, 1);
+}
+.torneos-anteriores p{
+    text-align: center;
+}
+
 .galeria{
     margin-top: 30px;
     margin-bottom: 30px;
 }
+
+/* comienza el footer */
 footer{
     display: flex;
     justify-content: space-between;
     margin-left: 10%;
     margin-right: 10%;
 }
-.contactanos{
-    
+.saludo{
+    font-size: 20px;
+    font-style: italic;
+    margin-left: 50px;
 }
+
 .red-footer a{
     color: black;
 }
+
+/*responsive*/
+
 @media (max-width:800px){
     nav{
         display: none;
