@@ -16,6 +16,8 @@ body{
     background-color: rgba(38, 114, 76, 1)
 }
 
+/*comienza el header*/
+
 header{
     display: flex;
     justify-content: space-between;
@@ -46,6 +48,8 @@ nav{
 .redes{
     margin-right: 10%;
 }
+
+/* comienza el main */
 
 main{
     margin-left: 10%;
