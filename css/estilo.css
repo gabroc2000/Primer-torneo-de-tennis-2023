@@ -111,6 +111,15 @@ h1{
 h2{
     text-align: center;
 }
+
+.programacion{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+
+
 .jugadores-titulo{
     margin: 0 auto;
     background-color: rgb(248, 181, 79);
@@ -154,11 +163,7 @@ div.jugadores{
     transform: scale(1.5);
 }
 
-.programacion{
-    margin-top: 20px;
-    margin-bottom: 10px;
-    text-align: center;
-}
+
 
 .partidos{
     text-align: center;
