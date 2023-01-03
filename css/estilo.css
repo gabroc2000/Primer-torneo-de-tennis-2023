@@ -150,7 +150,14 @@ div.jugadores{
     margin-top: 5px;
     margin-bottom: 5px;
 }
-
+.torneos-anteriores{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.galeria{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
 @media (max-width:800px){
     nav{
         display: none;
