@@ -161,3 +161,9 @@ div.jugadores{
     }
 }
 
+@media (max-width:500px){
+    .descripcion-torneo{
+        width: 300px;
+    }
+
+}
