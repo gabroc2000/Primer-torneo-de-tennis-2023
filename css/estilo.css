@@ -10,6 +10,7 @@
     padding: 0px;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
 }
 body{
     background-color: rgba(38, 114, 76, 1)
@@ -82,14 +83,22 @@ div.boton-resultados{
     
     margin: 0 auto;
     display: flex;
+    text-decoration: none;
     justify-content: center;
     align-items: center;
     width: 100px;
     height: 30px;
-    background-color: white;
-    color: brown;
+    background-color: rgb(56, 56, 56);
     border-radius: 5px;
 }
+.boton-color{
+    color: white;
+}
+
+.boton-resultados:hover{
+    background-color: rgba(38, 114, 76, 1);
+}
+
 h1{
     text-align: center;
     margin-top: 20px;
@@ -157,6 +166,18 @@ div.jugadores{
 .galeria{
     margin-top: 30px;
     margin-bottom: 30px;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.contactanos{
+    
+}
+.red-footer a{
+    color: black;
 }
 @media (max-width:800px){
     nav{
