@@ -106,25 +106,58 @@ h2{
 }
 
 div.jugadores{
-    background-color: rgb(197, 254, 234);
+    background-color: rgb(252, 208, 126);
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
     font-size: 20px;
-    margin-top: 30px;
-    padding-top: 5px;
+    padding-top: 30px;
     padding-bottom: 5px;
 }
 
 .foto-jugadores{
-    width: 200px;
-    height: 200px;
+    width: 180px;
+    height: 180px;
     opacity: 0.8;
-    border-radius: 10px;
-    box-shadow: 3px 3px 3px 3px grey;
-}
+    border-radius: 98px;
+    border: 4px solid white;
+    box-shadow: 3px 3px 3px 3px rgb(248, 181, 79);
 
-.borde-fotos{
+}
+.descripcion-foto{
+    width: 200px;
+    height: 120px;
+    font-size: 12px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    opacity: 0.5;
+    text-align: justify;
     
 }
+.descripcion-foto:hover{
+    opacity: 1;
+}
+
+.programacion{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.partidos{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+@media (max-width:800px){
+    nav{
+        display: none;
+    }
+    .torneo-actual{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
