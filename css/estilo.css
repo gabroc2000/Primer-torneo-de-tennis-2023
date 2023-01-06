@@ -170,6 +170,17 @@ div.jugadores{
     margin-top: 5px;
     margin-bottom: 5px;
 }
+.foto-partido{
+    width: 300px;
+    border: 5px solid white;
+    border-bottom: 40px solid white;
+    /*border-radius: 10px;*/
+}
+.descripcion-partido{
+    font-size: 14px;
+    margin-top: -20px;
+}
+
 .torneos-anteriores{
     margin-top: 30px;
     margin-bottom: 50px;
