@@ -66,7 +66,7 @@ main{
     justify-content: space-around;
 }
 .foto-tennis{
-    width: 400px;
+    width: 350px;
     opacity: 0.8;
     box-shadow: 3px 3px 3px 3px grey;
     }
@@ -76,7 +76,7 @@ main{
 
 
 .descripcion-torneo{
-    width: 35%;
+    width: 50%;
     text-align: justify;
 }
 .face-grupo{
@@ -93,6 +93,8 @@ main{
     border: 2px solid black;
     padding: 15px;
     border-radius: 7px;
+    width: 20%;
+    text-align: center;
 }
 
 .color1{
@@ -119,6 +121,7 @@ div.boton-resultados{
     height: 30px;
     background-color: rgb(56, 56, 56);
     border-radius: 5px;
+    margin-top: 30px;
 }
 .boton-color{
     color: white;
@@ -126,6 +129,7 @@ div.boton-resultados{
 
 .boton-resultados:hover{
     background-color: rgba(38, 114, 76, 1);
+    
 }
 
 h1{
@@ -204,7 +208,8 @@ div.jugadores{
     align-items: center;
 }
 .foto-partido{
-    width: 310px;
+    width: 300px;
+    height: 300px;
     margin: 10px;
     border: 5px solid white;
     border-bottom: 50px solid white;
@@ -213,7 +218,8 @@ div.jugadores{
 .descripcion-partido{
     font-size: 14px;
     margin-top: -30px;
-    margin-left: 10px;
+    border-radius: 2px;
+    text-align: center;
 }
 
 .torneos-anteriores{
