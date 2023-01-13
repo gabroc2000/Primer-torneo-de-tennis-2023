@@ -76,7 +76,7 @@ main{
 
 
 .descripcion-torneo{
-    width: 400px;
+    width: 35%;
     text-align: justify;
 }
 .face-grupo{
@@ -243,6 +243,9 @@ footer{
     }
     .fotos-galeria{
         flex-direction: column;
+    }
+    .saludo{
+        display: none
     }
 }
 
