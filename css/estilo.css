@@ -281,6 +281,7 @@ footer{
     }
     .grupoRoundRobin{
         flex-direction: column;
+        align-items: center;
     }
 }
 
