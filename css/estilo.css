@@ -93,21 +93,21 @@ main{
     border: 2px solid black;
     padding: 15px;
     border-radius: 7px;
-    width: 20%;
+    width: 200px;
     text-align: center;
 }
 
 .color1{
-    background-color: yellow;
+    background-color: rgba(233, 197, 5, 0.8);
 }
 .color2{
-    background-color: blue;
+    background-color: rgba(3, 52, 146, 0.8);
 }
 .color3{
-    background-color: green;
+    background-color: rgba(10, 108, 19, 0.8);
 }
 .color4{
-    background-color: rgb(209, 48, 48);
+    background-color: rgba(237, 9, 9, 0.8);
 }
 
 div.boton-resultados{
@@ -206,6 +206,7 @@ div.jugadores{
 .fotos-galeria{
     display: flex;
     align-items: center;
+    justify-content: space-around;
 }
 .foto-partido{
     width: 300px;
