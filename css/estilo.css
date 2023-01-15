@@ -96,6 +96,9 @@ main{
     width: 200px;
     text-align: center;
 }
+.grupos:hover{
+    transform: scale(1.5);
+}
 
 .color1{
     background-color: rgba(233, 197, 5, 0.8);
@@ -282,6 +285,9 @@ footer{
     .grupoRoundRobin{
         flex-direction: column;
         align-items: center;
+    }
+    .descripcion-torneo{
+        width: 280px;
     }
 }
 
