@@ -210,6 +210,7 @@ div.jugadores{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    margin-top: 10px;
 }
 .foto-partido{
     width: 245px;
